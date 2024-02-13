@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+
+        <div class="logo">Upendra Chary</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+
+
+    </nav>
+
+    <nav id="hamburger-nav">
+
+        <div class="logo">Upendra Chary</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+
+            </div>
+
+            <div class="menu-links">
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+   <section id="profile">
+
+    <div class="section__pic-container">
+
+        <img src="https://i.ibb.co/86GQYXM/image-of-upendra.jpg" alt="ERROR_CHICHA"  class="pic"/>
+
+    </div>
+    <div class="section__text">
+     <p class="section__text__p1">Hello, I'm</p>
+     <h1 class="title">Upendra Chary</h1>
+     <p class="section__text__p2">Frontend Developer</p>
+     <div class="btn-container">
+       <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1BbeSLLZZr3Vg8L-bctjl_DGOQIgj2pSP/view?usp=sharing')"> Download CV
+
+       </button>
+       <button class="btn btn-color-1"
+       onclick="location.href='./#contact'""> Contact Info</button>
+     </div>
+
+     <div id="socials-container">
+        <img src="https://i.ibb.co/1vGb00H/linkedin.png"
+        alt="Linkedin Page" class="icon"
+        onclick="location.href='https://www.linkedin.com/in/upendra-chary-adulapuram-522b82234/'"/>
+    <img src="https://imgs.search.brave.com/LUckTVtnBmHLsv6OcyA_UsC-qZchQgYysxns3UjMp1s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4x/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvaW9uaWNvbnMt/ZmlsbC12b2wtMi81/MTIvbG9nby1naXRo/dWItMTI4LnBuZw"
+    alt="my github profile"
+    class="icon"
+    onclick="location.href='https://github.com/Hack1434'"/>
+
+    
+    </div>
+    </div>
+
+
+   </section>
+
+   <section id="about">
+
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+     <img src="https://i.ibb.co/QD0Bxz6/me.jpg" alt="image of upendra" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <img src="https://i.ibb.co/8BbWkW1/experience.png"
+                    alt="Experience-icon"
+                    class="icon"/>
+
+                    <h3>Experience</h3>
+                    <p> Fresher <br/>Frontend Development</p>
+
+                </div>
+                <div class="details-container">
+                    <img src="https://i.ibb.co/KssPf19/education.png" 
+                    alt="Education icon"
+                    class="icon"/>
+                    <h3>Education</h3>
+                    <p>BSc Computer Science <br />MBA in Finance</p>
+
+                </div>
+
+            </div>
+
+            <div class="text-container">
+                <p>Motivated fresher with a solid foundation in both frontend and backend web
+                    development. Proficient in frontend languages such as HTML, CSS, and JavaScript,
+                    complemented by basic backend skills. Eager to design intuitive and user-friendly
+                    websites while seeking mentorship from industry professionals. Ready to embrace
+                    challenges, contribute effectively to team projects, and advance my expertise in the
+                    dynamic realm of web development.
+                    </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <img src="https://i.ibb.co/gS8m1dd/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#experience' " />
+
+   </section>
+
+   <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+                    <article>
+                        <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+                        alt="Experienced icon"
+                        class="icon"
+                         />
+
+                         <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                         </div>
+                    </article>
+                    <article>
+                        <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+                       alt="Experiened-icon"
+                       class="icon"
+                        />
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+
+                        </div>
+                    </article>
+
+                    <article>
+                        <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+
+                        alt="Experience-icon"
+                        class="icon"/>
+
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                        </article>
+                        <article>
+                            <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+                            alt="Experience-icon"
+                            class="icon"/>
+    
+                            <div>
+                                <h3>React Js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+    
+                            alt="Experience-icon"
+                            class="icon"/>
+    
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+        
+                                alt="Experience-icon"
+                                class="icon"/>
+        
+                                <div>
+                                    <h3>Redux </h3>
+                                    <p>Basic</p>
+                                </div>
+                        </article>
+                        <article>
+                            <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+        
+                                alt="Experience-icon"
+                                class="icon"/>
+        
+                                <div>
+                                    <h3>Bootstrap</h3>
+                                    <p>Basic</p>
+                                </div>
+                        </article>
+
+                </div>
+
+            </div>
+
+            <div class="details-container">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+    
+                            alt="Experience-icon"
+                            class="icon"/>
+    
+                            <div>
+                                <h3>Node Js</h3>
+                                <p>Basic</p>
+                            </div>
+                    </article>
+                    <article>
+                        <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+    
+                            alt="Experience-icon"
+                            class="icon"/>
+    
+                            <div>
+                                <h3>Mongo DB </h3>
+                                <p>Basic</p>
+                            </div>
+                    </article>
+                    <article>
+                        <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+    
+                            alt="Experience-icon"
+                            class="icon"/>
+    
+                            <div>
+                                <h3>Express Js </h3>
+                                <p>Basic</p>
+                            </div>
+                    </article>
+                    <article>
+                        <img src="https://i.ibb.co/9wdX5Cf/checkmark.png"
+    
+                            alt="Experience-icon"
+                            class="icon"/>
+    
+                            <div>
+                                <h3>EJS </h3>
+                                <p>Basic</p>
+                            </div>
+                    </article>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <img src="https://i.ibb.co/gS8m1dd/arrow.png"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#projects' "/>
+
+   </section>
+
+   <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="https://i.ibb.co/qmqFZtF/e-commerce-screen.png"
+                    alt="project 1" 
+                    class="project-img"/>
+
+
+
+                </div>
+
+                <h2 class="experience-sub-title project-title">E-Commerce</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://codesandbox.io/p/devbox/github/Hack1434/E-Kart/tree/main/'">Github</button>
+                    <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://tjtr86-5173.csb.app/'"
+              >
+                Live Demo
+              </button>
+
+                </div>
+
+            </div>
+
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="https://i.ibb.co/x7mKVW4/meals-app.png"
+                    alt="project 2"
+                    class="project-img" />
+
+                </div>
+
+                <h2 class="experience-sub-title project-title">Meals-app</h2>
+
+                <div class="btn-container">
+
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://codesandbox.io/p/sandbox/github/Hack1434/Meals-App/tree/main/'">
+                         Github
+                    </button>
+
+                    <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://803c8u.csb.app/'"
+              >
+                Live Demo
+              </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <img
+        src="https://i.ibb.co/gS8m1dd/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+
+   </section>
+
+   <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img 
+            src="https://i.ibb.co/pdX6YfH/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"/>
+
+            <p><a href="mailto:upendracharyadulapuram@gmail.com">upendracharyadulapuram@gmail.com</a></p>
+
+        </div>
+
+        <div class="contact-info-container">
+            <img src="https://i.ibb.co/1vGb00H/linkedin.png" 
+            alt="Linkedin icon"
+            class="icon contact-icon"/>
+            <p><a href="https://www.linkedin.com/in/upendra-chary-adulapuram-522b82234/">LinkedIn</a></p>
+
+        </div>
+
+    </div>
+
+   </section>
+
+   <footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links"> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+   </footer>
+
+
+<script src="app.js"></script>
+  </body>
+  
+  </html>
